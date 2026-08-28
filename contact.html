@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Partner With Us — SignSight | Wired Technologies</title>
+<meta name="description" content="Request a pilot, offer to mentor, or get in touch with the SignSight team." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230b0f14%22/><text x=%2250%22 y=%2266%22 font-size=%2250%22 text-anchor=%22middle%22 fill=%22%234fd1c5%22 font-family=%22sans-serif%22>W</text></svg>" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">WT</span>
+        <span class="brand-text"><strong>Wired Technologies</strong><small>Access, unlocked.</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">Solution</a>
+        <a href="vision.html" data-page="vision.html">Vision &amp; Mission</a>
+        <a href="impact.html" data-page="impact.html">Impact</a>
+        <a href="team.html" data-page="team.html">Team</a>
+        <a href="contact.html" data-page="contact.html">Partner With Us</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-ghost">Get in Touch</a>
+        <a href="contact.html#pilot" class="btn btn-primary">Request a Pilot</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow"><span class="dot"></span> Partner with us</span>
+      <h1>This is a call to action, not just a demo.</h1>
+      <p>We're inviting schools, the Ministry of Education, technical mentors, and funders to help take SignSight from a browser prototype to a real classroom pilot.</p>
+    </div>
+  </section>
+
+  <section class="section" id="pilot">
+    <div class="container two-col">
+
+      <!-- Contact form -->
+      <div class="reveal">
+        <div class="card">
+          <h3 style="font-size:19px;">Tell us how you'd like to be involved</h3>
+          <p class="muted" style="margin-top:6px; font-size:14px;">Fill in the form and our team will get back to you. You can also email us directly at <a href="mailto:hello@wiredtechnologies.example" style="color:var(--accent);">hello@wiredtechnologies.example</a>.</p>
+
+          <form
+            name="signsight-partner-inquiry"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            style="margin-top:22px;"
+          >
+            <!-- Required hidden fields for Netlify Forms -->
+            <input type="hidden" name="form-name" value="signsight-partner-inquiry" />
+            <p style="display:none;">
+              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" required placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="org">School / organisation</label>
+                <input id="org" name="org" type="text" placeholder="e.g. Windhoek Technical High School" />
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" required placeholder="you@example.com" />
+              </div>
+              <div class="field">
+                <label for="role">I am reaching out as a...</label>
+                <select id="role" name="role">
+                  <option value="school">School / educator</option>
+                  <option value="ministry">Ministry of Education / policy partner</option>
+                  <option value="deaf-community">Deaf community member / Deaf educator</option>
+                  <option value="mentor">Technical mentor / engineer</option>
+                  <option value="funder">Funder / donor</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="interest">What are you interested in?</label>
+              <select id="interest" name="interest">
+                <option value="pilot">Requesting a pilot programme</option>
+                <option value="partner">General partnership</option>
+                <option value="mentor">Offering technical mentorship</option>
+                <option value="fund">Offering funding / support</option>
+                <option value="feedback">Sharing feedback on the concept</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Tell us a little about your school, organisation, or how you'd like to help."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-note">This form is wired for Netlify Forms — submissions will appear in your Netlify dashboard once deployed. See the deployment notes for setup.</p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Ways to help -->
+      <div class="reveal">
+        <span class="eyebrow">Ways to help</span>
+        <h2 style="margin-top:14px; font-size: clamp(24px,3vw,30px);">Pick the door that fits you.</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px; margin-top:22px;">
+          <div class="card">
+            <h3 style="font-size:16px;">Request a pilot</h3>
+            <p style="font-size:14px; margin-top:6px;">Run a small, supervised trial of the concept at your school, with our team and yours working closely together.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:16px;">Partner with us</h3>
+            <p style="font-size:14px; margin-top:6px;">Ministries, NGOs and disability organisations — help us align the project with existing programmes and safeguards.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:16px;">Mentor the team</h3>
+            <p style="font-size:14px; margin-top:6px;">Hardware, embedded ML, and industrial design expertise would move this concept forward faster than we can alone.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:16px;">Support inclusive education</h3>
+            <p style="font-size:14px; margin-top:6px;">Funding or in-kind support to move from a browser demo to a working, testable device.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand">
+          <span class="brand-mark">WT</span>
+          <span class="brand-text"><strong>Wired Technologies</strong><small>Access, unlocked.</small></span>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="about.html">The Solution</a>
+            <a href="vision.html">Vision &amp; Mission</a>
+            <a href="impact.html">Impact</a>
+          </div>
+          <div class="footer-col">
+            <h4>Team</h4>
+            <a href="team.html">Meet the Team</a>
+            <a href="contact.html">Partner With Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <strong>Conceptual prototype disclaimer:</strong> SignSight is an early-stage, non-commercial student concept built for research and educational demonstration purposes only. It recognises a small, fixed vocabulary of basic signs and is not a substitute for a qualified, professional sign-language interpreter or a validated assistive device.
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> Wired Technologies. Built for Namibia, designed for the world.</span>
+        <span>Namweda Ferdinard · Braga Charles · Number Asser · Asser Ndumba · Protasius Simpire · Robson Kanhalelo</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
